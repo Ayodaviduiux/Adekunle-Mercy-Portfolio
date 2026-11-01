@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mercy Olufunke Adekunle — Professional Video Production and Post-Production Studio. Specializing in commercial editing, viral social content, color grading, and sound design." />
+  <meta name="keywords" content="Video Production, Video Editor, Post-Production, Commercial Editing, Color Grading, Abuja Video Editor, Remote Video Editor" />
+  <meta name="author" content="Mercy Olufunke Adekunle" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mercy Olufunke Adekunle | Video Production & Post-Production" />
+  <meta property="og:description" content="We craft compelling visual stories that captivate audiences and elevate brands." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80" />
+
+  <title>Mercy Olufunke Adekunle — Video Production & Editing Studio</title>
+
+  <!-- Typography: Manrope & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Mercy Adekunle</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="primaryNav">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-drawer-actions">
+            <a href="#contact" class="btn btn-primary btn-block">
+              <span>Get a Quote</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm nav-desktop-btn">
+          <span>Get a Quote</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-layout">
+          <!-- Hero Copy -->
+          <div class="hero-copy">
+            <h1 class="hero-title" data-framer="fade-up">
+              We craft compelling visual stories that <span class="highlight-blue">captivate audiences</span> and elevate brands.
+            </h1>
+
+            <p class="hero-description" data-framer="fade-up" data-framer-delay="0.15s">
+              Led by professional video editor <strong>Mercy Olufunke Adekunle</strong>, we specialize in 
+              high-retention commercial editing, viral short-form campaigns, precision color grading, 
+              and broadcast-quality sound design.
+            </p>
+
+            <div class="hero-actions" data-framer="fade-up" data-framer-delay="0.25s">
+              <a href="#portfolio" class="btn btn-primary">
+                <span>View Our Work</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Start a Project</span>
+              </a>
+            </div>
+
+            <!-- Key Editorial Metrics -->
+            <div class="hero-metrics" data-framer="fade-up" data-framer-delay="0.35s">
+              <div class="metric-item">
+                <span class="metric-number">5+</span>
+                <span class="metric-label">Years of Experience</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-number">200+</span>
+                <span class="metric-label">Projects Delivered</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-number">5M+</span>
+                <span class="metric-label">Organic Video Views</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Media Showcase (Portrait / 3:4 Original Ratio) -->
+          <div class="hero-showcase" data-framer="fade-left" data-framer-delay="0.2s">
+            <div class="showcase-window portrait-showcase">
+              <div class="showcase-media portrait-media">
+                <video id="heroVideo" src="1101.mp4" controls controlsList="nodownload" oncontextmenu="return false;" playsinline preload="metadata"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Services Section
+         ========================================================================== -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center" data-framer="fade-up">
+          <span class="section-eyebrow">Our Capabilities</span>
+          <h2 class="section-title">Comprehensive Video Production &amp; Editing</h2>
+          <p class="section-description">
+            From initial raw footage assembly to the final multi-platform delivery, we provide 
+            end-to-end post-production services designed for visual impact and narrative clarity.
+          </p>
+        </div>
+
+        <div class="services-grid" data-framer="stagger">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon icon-blue">
+              <i class="fa-solid fa-clapperboard"></i>
+            </div>
+            <h3 class="service-title">Commercial &amp; Brand Video</h3>
+            <p class="service-desc">
+              High-impact commercials, brand anthems, and promotional videos crafted with 
+              cinematic pacing and clear brand messaging.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Narrative storyboarding &amp; assembly</li>
+              <li><i class="fa-solid fa-check"></i> Multi-camera interview editing</li>
+              <li><i class="fa-solid fa-check"></i> Broadcast &amp; digital deliverables</li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon icon-rose">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3 class="service-title">Short-Form &amp; Social Content</h3>
+            <p class="service-desc">
+              Retention-engineered videos optimized for TikTok, Instagram Reels, and YouTube Shorts 
+              to drive viral organic reach.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Hook optimization within the first 3 seconds</li>
+              <li><i class="fa-solid fa-check"></i> Styled dynamic auto-captions</li>
+              <li><i class="fa-solid fa-check"></i> Rhythmic beat-synced transitions</li>
+            </ul>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon icon-amber">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="service-title">Color Grading &amp; Finishing</h3>
+            <p class="service-desc">
+              Advanced color correction, skin tone balancing, and bespoke LUT application to achieve 
+              a cohesive, professional aesthetic.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Flat RAW LOG to Rec.709 conversion</li>
+              <li><i class="fa-solid fa-check"></i> Skin tone isolation and refinement</li>
+              <li><i class="fa-solid fa-check"></i> Multi-shot color temperature matching</li>
+            </ul>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon icon-purple">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <h3 class="service-title">Audio Engineering &amp; Mixing</h3>
+            <p class="service-desc">
+              Clear, balanced audio post-production that elevates dialogue clarity, background score, 
+              and impactful foley sound effects.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Background noise reduction &amp; de-reverb</li>
+              <li><i class="fa-solid fa-check"></i> Dialogue level normalization</li>
+              <li><i class="fa-solid fa-check"></i> Bespoke sound effects (SFX) layering</li>
+            </ul>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-icon icon-cyan">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3 class="service-title">Motion Graphics &amp; Titles</h3>
+            <p class="service-desc">
+              Clean lower thirds, kinetic typography, callouts, and animated intro/outro sequences 
+              built in Adobe After Effects.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Animated logo treatments &amp; idents</li>
+              <li><i class="fa-solid fa-check"></i> Subtitles &amp; kinetic typography</li>
+              <li><i class="fa-solid fa-check"></i> Brand guidelines asset implementation</li>
+            </ul>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-icon icon-emerald">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3 class="service-title">AI Video Scaling &amp; Workflows</h3>
+            <p class="service-desc">
+              Accelerated post-production leveraging modern AI script-to-video systems, 
+              intelligent B-roll generation, and voice synthesis.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> AI script generation &amp; refinement</li>
+              <li><i class="fa-solid fa-check"></i> High-volume monthly content scaling</li>
+              <li><i class="fa-solid fa-check"></i> 50% faster turnaround time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Portfolio Section (Featuring Actual Videos from Root Folder in a Slider)
+         ========================================================================== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="portfolio-header-row" data-framer="fade-up">
+          <div>
+            <span class="section-eyebrow">Production Portfolio</span>
+            <h2 class="section-title">Featured Video Projects</h2>
+            <p class="section-description">
+              Explore our completed video production and editing work. Click any video to play.
+            </p>
+          </div>
+          <!-- Slider Navigation Controls -->
+          <div class="portfolio-slider-controls">
+            <button class="slider-arrow-btn" id="portfolioPrev" aria-label="Previous video" title="Previous video">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="slider-arrow-btn" id="portfolioNext" aria-label="Next video" title="Next video">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Portfolio Video Carousel / Slider -->
+        <div class="portfolio-slider-container" data-framer="fade-up" data-framer-delay="0.1s">
+          <div class="portfolio-slider" id="portfolioSlider" tabindex="0" role="region" aria-label="Featured video carousel">
+            <!-- Slide 1: 1101.mp4 -->
+            <div class="portfolio-slide" data-video-id="video1" role="button" tabindex="0" aria-label="Play Featured Video 1">
+              <div class="slide-video-wrap">
+                <video src="1101.mp4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: 1020(1).MP4 -->
+            <div class="portfolio-slide" data-video-id="video2" role="button" tabindex="0" aria-label="Play Featured Video 2">
+              <div class="slide-video-wrap">
+                <video src="1020(1).MP4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: WhatsApp Video 2026-11-01 at 2.13.29 PM.mp4 -->
+            <div class="portfolio-slide" data-video-id="video3" role="button" tabindex="0" aria-label="Play Featured Video 3">
+              <div class="slide-video-wrap">
+                <video src="WhatsApp Video 2026-11-01 at 2.13.29 PM.mp4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: WhatsApp Video 2026-11-01 at 2.17.15 PM.mp4 -->
+            <div class="portfolio-slide" data-video-id="video4" role="button" tabindex="0" aria-label="Play Featured Video 4">
+              <div class="slide-video-wrap">
+                <video src="WhatsApp Video 2026-11-01 at 2.17.15 PM.mp4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: WhatsApp Video 2026-11-01 at 2.58.59 PM.mp4 -->
+            <div class="portfolio-slide" data-video-id="video5" role="button" tabindex="0" aria-label="Play Featured Video 5">
+              <div class="slide-video-wrap">
+                <video src="WhatsApp Video 2026-11-01 at 2.58.59 PM.mp4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6: WhatsApp Video 2026-11-01 at 2.59.39 PM.mp4 -->
+            <div class="portfolio-slide" data-video-id="video6" role="button" tabindex="0" aria-label="Play Featured Video 6">
+              <div class="slide-video-wrap">
+                <video src="WhatsApp Video 2026-11-01 at 2.59.39 PM.mp4" preload="metadata" playsinline muted loop controlsList="nodownload" oncontextmenu="return false;"></video>
+                <div class="slide-overlay">
+                  <div class="slide-play-pill">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide indicators / pagination dots -->
+          <div class="portfolio-slider-dots" id="sliderDots"></div>
+        </div>
+
+        <!-- Editorial Before & After Color Grading Slider -->
+        <div class="grading-container-wrap" data-framer="fade-up">
+          <div class="grading-header">
+            <div>
+              <span class="section-eyebrow">Technical Demonstration</span>
+              <h3 style="font-size: 1.4rem;">Interactive Color Grading &amp; Finishing</h3>
+              <p style="font-size: 0.95rem; color: var(--text-secondary);">
+                Drag the divider to compare <strong>Raw Flat LOG</strong> camera sensor data with our final 
+                <strong>Rec.709 Cinematic Grade</strong>.
+              </p>
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+              DaVinci Resolve / CapCut Color Curves
+            </div>
+          </div>
+
+          <div class="comparison-container">
+            <img class="comparison-image img-after" src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80" alt="Cinematic Graded Footage" />
+            <span class="comparison-label label-after">Graded Rec.709</span>
+
+            <div class="img-before-wrapper">
+              <img class="comparison-image img-before" src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80" alt="Raw Flat Log Camera Footage" />
+              <span class="comparison-label label-before">Raw Flat LOG</span>
+            </div>
+
+            <div class="slider-handle">
+              <div class="handle-button" title="Drag to compare">
+                <i class="fa-solid fa-arrows-left-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="grading-specs">
+            <div class="spec-item">
+              <h5>Skin Tone Integrity</h5>
+              <p>Precise vector-scope calibration ensuring natural skin tones across varying ambient conditions.</p>
+            </div>
+            <div class="spec-item">
+              <h5>Dynamic Range Protection</h5>
+              <p>Protecting highlight detail while lifting deep shadow tones for maximum cinematic depth.</p>
+            </div>
+            <div class="spec-item">
+              <h5>Cohesive Grade Matching</h5>
+              <p>Harmonizing multi-camera setups so cuts feel unified and consistent across all scenes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Why Choose Us Section
+         ========================================================================== -->
+    <section id="why-us" class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center" data-framer="fade-up">
+          <span class="section-eyebrow">The Studio Advantage</span>
+          <h2 class="section-title">Why Leading Brands &amp; Creators Trust Us</h2>
+          <p class="section-description">
+            We combine theatrical storytelling fundamentals with data-driven social pacing to create 
+            videos that capture attention and produce tangible business results.
+          </p>
+        </div>
+
+        <div class="why-us-grid" data-framer="stagger">
+          <div class="why-us-column">
+            <div class="why-us-num">01 / RETENTION</div>
+            <h3 class="why-us-title">Retention-First Pacing</h3>
+            <p class="why-us-desc">
+              Every edit is structured to protect watch time. We eliminate dead air, construct powerful 
+              hooks, and maintain rhythmic visual momentum.
+            </p>
+          </div>
+
+          <div class="why-us-column">
+            <div class="why-us-num">02 / CRAFTSMANSHIP</div>
+            <h3 class="why-us-title">Broadcast Precision</h3>
+            <p class="why-us-desc">
+              Backed by formal academic training in Performing Arts from the University of Ilorin, 
+              we apply dramatic timing, intentional framing, and clean audio standards.
+            </p>
+          </div>
+
+          <div class="why-us-column">
+            <div class="why-us-num">03 / VELOCITY</div>
+            <h3 class="why-us-title">Predictable Turnaround</h3>
+            <p class="why-us-desc">
+              Whether you need a 24-hour turnaround for an urgent social campaign or a multi-week 
+              commercial delivery, we strictly adhere to production schedules.
+            </p>
+          </div>
+
+          <div class="why-us-column">
+            <div class="why-us-num">04 / PIPELINE</div>
+            <h3 class="why-us-title">Full Post-Production</h3>
+            <p class="why-us-desc">
+              From raw footage ingest to sound design, color grading, motion graphics, and multi-format 
+              exports (16:9, 9:16, 1:1), we handle the complete lifecycle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Our Process Section
+         ========================================================================== -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-header text-center" data-framer="fade-up">
+          <span class="section-eyebrow">Our Methodology</span>
+          <h2 class="section-title">A Structured, Professional Workflow</h2>
+          <p class="section-description">
+            Clear communication, transparent milestones, and structured revision rounds ensure 
+            seamless collaboration on every project.
+          </p>
+        </div>
+
+        <div class="process-grid" data-framer="stagger">
+          <div class="process-step">
+            <div class="step-indicator">Step 01</div>
+            <h3 class="step-heading">Discovery &amp; Briefing</h3>
+            <p class="step-body">
+              We define your project objectives, target audience, core deliverables, and stylistic references 
+              to establish a clear creative brief.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-indicator">Step 02</div>
+            <h3 class="step-heading">Planning &amp; Assembly</h3>
+            <p class="step-body">
+              Raw media is organized, synced, and screened. We build the initial assembly cut, 
+              establishing narrative structure and foundational pacing.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-indicator">Step 03</div>
+            <h3 class="step-heading">Editing &amp; Refinement</h3>
+            <p class="step-body">
+              We layer sound design, dynamic transitions, color correction passes, and motion graphics, 
+              incorporating client feedback through structured review rounds.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-indicator">Step 04</div>
+            <h3 class="step-heading">Final Delivery</h3>
+            <p class="step-body">
+              Final assets are rendered in uncompressed broadcast specifications and platform-optimized 
+              codecs for web, social media, or broadcast distribution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About & Career Experience
+         ========================================================================== -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Bio -->
+          <div class="about-bio" data-framer="fade-right">
+            <span class="section-eyebrow">About Mercy</span>
+            <h2 class="section-title">The Creative Behind the Edit</h2>
+            <p>
+              I am <strong>Mercy Olufunke Adekunle</strong>, a Senior Video Editor based in Abuja, Nigeria, 
+              working with international brands, commercial studios, and fast-growing creative agencies.
+            </p>
+            <p>
+              My academic background in Performing Arts from the University of Ilorin gives me a unique 
+              advantage: I approach video editing through dramatic arc, performance nuance, and rhythmic 
+              timing rather than mere mechanical cuts.
+            </p>
+            <p>
+              Over the past 5+ years, I have spearheaded post-production pipelines spanning CapCut-driven 
+              viral workflows, Adobe Premiere Pro commercial campaigns, and DaVinci Resolve color finishing.
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="#contact" class="btn btn-primary">
+                <span>Start a Project</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Professional Track Record -->
+          <div class="experience-list" data-framer="fade-left">
+            <div class="experience-entry">
+              <div class="experience-period">Jan 2026 – Present</div>
+              <div class="experience-role">Senior Video Editor</div>
+              <div class="experience-firm">Davedesignstech Limited • Abuja (Remote)</div>
+              <div class="experience-details">
+                Spearheading CapCut-driven short-form workflows and AI script-to-video systems. 
+                Standardizing color profiles and brand aesthetics across multi-platform client campaigns.
+              </div>
+            </div>
+
+            <div class="experience-entry">
+              <div class="experience-period">Jul 2025 – Dec 2025</div>
+              <div class="experience-role">Video Editor</div>
+              <div class="experience-firm">MOT Career Hub Ltd • Abuja (Remote)</div>
+              <div class="experience-details">
+                Edited promotional videos, executive interviews, and episodic web content using Premiere Pro 
+                and DaVinci Resolve. Designed custom motion graphics and title sequences in After Effects.
+              </div>
+            </div>
+
+            <div class="experience-entry">
+              <div class="experience-period">Jan 2024 – Jun 2025</div>
+              <div class="experience-role">Freelance Video Editor</div>
+              <div class="experience-firm">Fortified City Technology Nigeria Ltd • Abuja</div>
+              <div class="experience-details">
+                Delivered post-production for tech startups and independent creators, managing end-to-end 
+                editing, audio mixing, color correction, and final delivery.
+              </div>
+            </div>
+
+            <div class="experience-entry">
+              <div class="experience-period">Sep 2021 – Dec 2023</div>
+              <div class="experience-role">Junior Video Editor</div>
+              <div class="experience-firm">Fuja Films • Ilorin</div>
+              <div class="experience-details">
+                Assembled rough cuts, synced multi-camera audio tracks, and performed color correction passes 
+                for commercial film and television projects.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Client Testimonials
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center" data-framer="fade-up">
+          <span class="section-eyebrow">Client Feedback</span>
+          <h2 class="section-title">Trusted by Directors &amp; Founders</h2>
+          <p class="section-description">
+            Direct feedback from collaborative video campaigns.
+          </p>
+        </div>
+
+        <div class="testimonials-grid" data-framer="stagger">
+          <div class="testimonial-box">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">
+              “An absolute pleasure to work with. They took our raw footage and turned it into a cinematic 
+              masterpiece that blew our clients away. Extremely professional and fast!”
+            </p>
+            <div class="testimonial-author-meta">
+              <div class="author-initials">AD</div>
+              <div>
+                <div class="author-name">Adesina David</div>
+                <div class="author-role">Creative Director &amp; Commercial Client</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-box">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-quote">
+              “Incredible attention to detail and pacing. Our engagement rates doubled on the video 
+              campaigns they edited for us.”
+            </p>
+            <div class="testimonial-author-meta">
+              <div class="author-initials" style="background-color: var(--accent-amber-light); color: #d97706; border-color: var(--accent-amber-border);">OF</div>
+              <div>
+                <div class="author-name">Engineer Olu Festus</div>
+                <div class="author-role">Technology Founder &amp; Executive</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact & Enquiry Section
+         ========================================================================== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center" data-framer="fade-up">
+          <span class="section-eyebrow">Initiate a Collaboration</span>
+          <h2 class="section-title">Start Your Next Video Project</h2>
+          <p class="section-description">
+            Reach out directly via WhatsApp or Email to discuss your footage, production timelines, 
+            or monthly retainer availability. We typically respond within a few hours.
+          </p>
+        </div>
+
+        <div class="contact-single-card" data-framer="scale-up">
+          <div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 0.75rem; color: var(--text-main);">Direct Studio Inquiries</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+              Whether you have raw footage ready for editing, an upcoming commercial campaign, 
+              or require ongoing monthly post-production retainer capacity, let's connect and discuss your creative brief.
+            </p>
+
+            <div class="contact-info-list">
+              <div class="contact-item">
+                <div class="contact-item-icon contact-icon-mail">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Email Inquiries</div>
+                  <div class="contact-item-value">
+                    <a href="mailto:mercyolufunkeadekunle@gmail.com">mercyolufunkeadekunle@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon contact-icon-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Direct WhatsApp / Mobile</div>
+                  <div class="contact-item-value">
+                    <a href="https://wa.me/2348062488957" target="_blank" rel="noopener noreferrer">+234 806 248 8957</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon contact-icon-map">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Studio Base</div>
+                  <div class="contact-item-value">
+                    Abuja, Nigeria • Available for Remote Global Contracts
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions-row">
+            <a href="https://wa.me/2348062488957" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+            <a href="mailto:mercyolufunkeadekunle@gmail.com" class="btn btn-primary">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Send Email</span>
+            </a>
+            <button id="copyEmailBtn" class="btn btn-secondary">
+              <i class="fa-regular fa-copy"></i>
+              <span>Copy Email</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top" data-framer="fade-up">
+        <div class="footer-brand-col">
+          <div class="footer-brand-title">Mercy Adekunle</div>
+          <p class="footer-brand-desc">
+            Professional video production and editing studio. Transforming raw video material into 
+            compelling commercial and social stories.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5>Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5>Expertise</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Commercial Video</a></li>
+            <li><a href="#services">Short-Form Content</a></li>
+            <li><a href="#services">Color Grading</a></li>
+            <li><a href="#services">Audio Engineering</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5>Direct Contact</h5>
+          <ul class="footer-links">
+            <li><a href="mailto:mercyolufunkeadekunle@gmail.com">Email Us</a></li>
+            <li><a href="https://wa.me/2348062488957" target="_blank" rel="noopener noreferrer">WhatsApp Direct</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" data-framer="fade-up" data-framer-delay="0.1s">
+        <div>
+          &copy; 2026 Mercy Olufunke Adekunle. All rights reserved.
+        </div>
+        <div>
+          Designed for professional video production and creative storytelling.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Preserved Interactive Video Player Modal
+       ========================================================================== -->
+  <div id="videoModal" class="video-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content-box">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-video-container">
+        <video id="modalVideo" controls controlsList="nodownload" oncontextmenu="return false;" playsinline>
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <div class="modal-info-panel">
+        <h3 id="modalTitle" class="modal-title">Project Video Title</h3>
+        <p id="modalMeta" class="modal-meta">Client • Tools used</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notice -->
+  <div id="toastNotice" class="toast-notice">
+    <i class="fa-solid fa-check"></i>
+    <span class="toast-message">Notification message</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

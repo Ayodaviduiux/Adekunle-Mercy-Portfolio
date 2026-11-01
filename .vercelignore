@@ -1,0 +1,8 @@
+# Server & local tools
+server.js
+.git
+.github
+*.log
+
+# Exclude uncompressed 4K video (>100MB exceeds Vercel limits)
+1020(1).MP4
