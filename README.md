@@ -24,3 +24,4 @@ Open [http://localhost:3000/](http://localhost:3000/) in your browser.
 
 ## Deployment
 Configured with `vercel.json` for deployment on [Vercel](https://vercel.com).
+
